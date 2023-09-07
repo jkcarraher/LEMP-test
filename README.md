@@ -6,4 +6,4 @@
 
 
 ## Description
-<p>This is some simple documentation for my test creating an LEMP server by following <a href= "https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-20-04">this</a> tutorial. Guide was very straightforward, there were some minor problems as the sample code for the PHP routing setup has an outdated version. This caused nginx to spit out a 502 error, but this was fixed up changing the version from 7.4 to the latest version (8.1). </p>
+<p>This is some simple documentation for my test creating an LEMP server on a Linux VM (I used UTM on my MacBook Air). I followed <a href= "https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-20-04">this</a> guide which was very straightforward. There were some minor problems as the sample code for the PHP routing setup has an outdated version. This caused nginx to spit out a 502 error, but I fixed this by changing the version from 7.4 to the latest version (8.1). </p>
