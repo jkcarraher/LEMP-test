@@ -1,7 +1,8 @@
 # LEMP G-Cloud Server
 Published on September 10, 2023 by John Carraher
 
-This is going to be an in depth guide of how I setup a LEMP stack on Google Cloud VM and setup a custom domain name [tokyosniper.org](http://tokyosniper.org/). Resources are a little outdated so I figured I'd give an updated walkthrough documenting my process of doing this all the way through. 
+This is going to be an in depth guide of how I setup a LEMP stack on Google Cloud VM and setup a custom domain name [tokyosniper.org](http://tokyosniper.org/). Resources are a little outdated so I figured I'd give an updated walkthrough documenting my process of doing this all the way through. The code above is for another LEMP server I created on a Ubuntu 20.04 VM (Using UTM on my MacBook Air), but the stack installation process and code is exactly the same.
+
 
 ## Setting Up a Google Cloud VM
 1. Login into Cloud Platform Console. In the Cloud Platform Console, go to the  **VM Instances** [page](https://console.cloud.google.com/compute/instances).
@@ -265,7 +266,7 @@ server {
 
 }
 ```
-**NOTE**: replace `php7.4` with whatever version you installed.
+**NOTE**: replace `php7.4` with whatever version you installed (latest version is 8.1 at the moment).
 
 Here’s what each of these directives and location blocks do:
 
